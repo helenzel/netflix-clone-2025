@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Netflix-clone-2025/",
+  base: "/netflix-clone-2025/",
 });
