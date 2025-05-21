@@ -1,5 +1,5 @@
 {
-  "homepage": "https://helenzel.github.io/Netflix-clone-2025/",
+  "homepage": "https://helenzel.github.io/netflix-clone-2025/",
   "name": "netflix-clone",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build:github",
     "deploy": "gh-pages -d dist",
     "build:github": "vite build --mode=github"
   },
