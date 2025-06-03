@@ -4,6 +4,6 @@ import react from "@vitejs/plugin-react";
 export default defineConfig(({mode})=> {
   return{
     plugins: [react()],
-    base: mode === "github" ? "/netflix-clone-2025/" : "/",
+    base:"/netflix-clone-2025/",
   };
 });
