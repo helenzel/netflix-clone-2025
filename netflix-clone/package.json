@@ -10,9 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build:github",
-    "deploy": "gh-pages -d dist",
-    "build:github": "vite build --mode=github",
-    "build:netlify": "vite build --mode=development"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
